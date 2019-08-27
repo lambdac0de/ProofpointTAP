@@ -1,0 +1,16 @@
+{
+    "tap": {
+        "host": "tap-api-v2.proofpoint.com",
+        "uri": {
+            "base": "https://tap-api-v2.proofpoint.com",
+            "siem": "/v2/siem",
+            "forensics": "/v2/forensics",
+            "campaign": "/v2/campaign",
+            "urldecode": "/v2/url/decode"
+        }
+    },
+    "credential": {
+        "principal": "",
+        "secret": "" 
+    }
+}
