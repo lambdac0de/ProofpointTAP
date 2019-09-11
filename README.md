@@ -13,3 +13,11 @@ https://www.proofpoint.com/sites/default/files/proofpoint_tap-datasheet-a4.pdf
 #### IMPORTANT!
 
 This is my own implementation of a PowerShell wrapper, to utilize the TAP APIs more efficiently by administrators. This code is not related to the vendor or the product in any way
+
+#### Usage
+
+1. Obtain your TAP credentials (service principal and secret) and paste them in `settings.json`<br><br>
+   <i>Putting credentials in plain text is certianly a bad idea, so think of a crafty way encyrpting the credentials and modifying the  code to accomodate (consider using MSDPAPI/ securestrings) </i>
+   
+2. Place the whole directory in any of the PowerShell module paths `$env:PSModulePath`
+3. Import the module and start using the API wrappers! `Import-Module ProofpointTAP`
